@@ -17,5 +17,7 @@ class attendance extends date{
 		$this->date = $date;
 		return $this;
 	}
+	public $object_date = new date;
+
 }
 ?>
